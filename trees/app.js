@@ -34,6 +34,28 @@ class BinarySearchTree {
             }
         }
     }
+    // remove(value){
+        // not finished yet
+    //     if(!root){
+    //         return false
+    //     }else{
+    //         let currentNode = this.root
+    //         let parrentNode = null;
+    //         while(currentNode){
+    //             if(currentNode.value === value){
+    //                 if (!currentNode.left && !currentNode.right){
+    //                     parrentNode.
+    //                 }
+    //             }else if (currentNode.value < value){
+    //                 parrentNode = currentNode
+    //                 currentNode = currentNode.right
+    //             }else if (currentNode.value > value){
+    //                 parrentNode = currentNode
+    //                 currentNode = currentNode.left
+    //             }
+    //         }
+    //     }
+    // }
     lookup(value){
         if (!this.root){
             return false
